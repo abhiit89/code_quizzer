@@ -26,7 +26,7 @@ end
 
 group :development do
   gem 'awesome_print'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'quiet_assets'
 end
