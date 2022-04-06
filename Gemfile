@@ -12,7 +12,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'thin'
 gem 'redcarpet'
-gem 'pygments.rb'
+gem 'pygments.rb', '>= 1.0.0'
 gem 'pry'
 gem 'spring'
 
