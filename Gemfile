@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 
 ruby "2.1.2"
-gem 'rails', '4.1.8'
+gem 'rails', '6.1.7.1'
 
 gem 'cancan'
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'faker'
 gem 'haml-rails'
 gem 'heroku'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 gem 'pg'
-gem 'thin'
+gem 'thin', '>= 1.7.0'
 gem 'redcarpet'
 gem 'pygments.rb'
 gem 'pry'
 gem 'spring'
 
-gem 'coffee-rails', '~> 4.0.0'
-gem 'sass-rails', '~> 4.0.3'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'sass-rails', '~> 5.0.8'
 gem 'uglifier', '>= 1.3.0'
 
 group :production do
